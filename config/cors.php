@@ -25,6 +25,10 @@ return [
 
     'allowed_headers' => ['*'],
 
+    'api/*',
+    'sanctum/csrf-cookie',
+    'storage/*',
+
     'exposed_headers' => [],
 
     'max_age' => 0,
